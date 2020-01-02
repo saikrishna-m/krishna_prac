@@ -149,6 +149,101 @@
             <li class="breadcrumb-item"><a href="#">2019</a></li>
             <li class="breadcrumb-item active">agnythavaasi</li>    
         </ul>
-    </div>
+    </div><br>
+    <!-- Basic list groups: we using .list-group and .list-group-items here -->
+    <div class="container">
+    <ul class="list-group">
+        <li class="list-group-item">
+            electronics
+        </li>
+        <li class="list-group-item">
+            Communication
+        </li>
+        <li class="list-group-item">
+            Computer science
+        </li>
+    </ul>
+    </div><br>
+    <!-- using contextual classes like .list-group-item-warning etc -->
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">
+                electronics
+            </li>
+            <li class="list-group-item list-group-item-secondary">
+                Communication
+            </li>
+            <li class="list-group-item list-group-item-warning">
+                Computer science
+            </li>
+        </ul>
+        </div><br>
+    <!-- list group linked items by using <div> insted of ul and <a> insted of li.
+        we can also use .active class here (if we want)-->
+    <div class="container">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-danger list-group-item-action">Electronics</a>
+            <a href="#" class="list-group-item list-group-item-info list-group-item-action">Communication</a>
+            <a href="#" class="list-group-item list-group-item-warning list-group-item-action">ComputerScience</a>
+        </div>
+    </div><br>
+    <div class="container">
+        <div class="list-group">
+            <a href="#" class="list-group-item">Electronics</a>
+            <a href="#" class="list-group-item">Communication</a>
+            <a href="#" class="list-group-item disabled">Computers</a>
+        </div>
+    </div><br>
+    <!-- .list-group-flush class is help us to remove some borders, let check it once.. -->
+    <div class="container">
+        <ul class="list-group-flush">
+            <li class="list-group-item">Electronics</li>
+            <li class="list-group-item">Communication</li>
+            <li class="list-group-item">ComputerScience</li>
+
+
+        </ul>
+    </div><br>
+    <!-- .list-group-horizontal class used to create horizontal list -->
+    <div class="container">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item list-group-item-success">Electronics</li>
+            <li class="list-group-item list-group-item-info">Communication</li>
+            <li class="list-group-item list-group-item-warning">ComputerScience</li>
+
+
+        </ul>
+    </div><br>
+    <!-- list groups with badges: make use of .badge class -->
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item justify-content-between d-flex">Electronics<span class="badge badge-info ">100</span></li>
+            <li class="list-group-item justify-content-between d-flex">Communication<span class="badge badge-info">100</span></li>
+            <li class="list-group-item justify-content-between d-flex">ComputerScience<span class="badge badge-info">65</span></li>
+
+        </ul>
+    </div><br>
+    <!-- bootstrap cards: here we use .card .card-body to create cards.we can use .card-header and .card-footer classes 
+    to create card header and footer-->
+    <div class="container">
+        <div class="card">
+            <div class="card-header">header</div>
+            <div class="card-body">body</div>
+            <div class="card-footer">footer</div>
+        </div>
+    </div><br>
+    <!--title text and links in the cards-->
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+
+                <h1 class="card-title">Job</h1>
+                <p class="card-text">proper skills need to get job</p>
+                <a href="#" class="card-link">fresher jobs</a>
+                <a href="#" class="card-link">exp jobs</a>
+            </div>   
+        </div>
+    </div><br>
+    
   </body>
 </html>
